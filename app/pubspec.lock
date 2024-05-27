@@ -42,7 +42,7 @@ packages:
     source: hosted
     version: "1.18.0"
   core_dependencies:
-    dependency: "direct main"
+    dependency: "direct dev"
     description:
       path: "../packages/core/core_dependencies"
       relative: true
@@ -225,4 +225,3 @@ packages:
     version: "13.0.0"
 sdks:
   dart: ">=3.3.4 <4.0.0"
-  flutter: ">=1.17.0"
