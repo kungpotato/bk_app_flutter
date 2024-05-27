@@ -3,6 +3,14 @@ packages:
   - "app/**"
   - "packages/**"
 
+ignore:
+  - "packages/features/auth/**"
+  - "packages/features/home/**"
+  - "packages/features/market/**"
+  - "packages/features/setting/**"
+  - "packages/features/trade/**"
+  - "packages/features/wallet/**"
+
 command:
   bootstrap:
     usePubspecOverrides: true
