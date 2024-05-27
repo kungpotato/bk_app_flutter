@@ -1,0 +1,17 @@
+{
+  "name": "token-parser",
+  "version": "1.0.0",
+  "main": "./token-parser",
+  "author": "MB team",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "style-dictionary": "^3.7.0"
+  },
+  "scripts": {
+    "gen": "node global.js && node default.js && node dark.js"
+  },
+  "devDependencies": {
+    "jest": "^28.1.1"
+  }
+}

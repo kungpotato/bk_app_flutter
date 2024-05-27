@@ -1,0 +1,508 @@
+{
+  "bk": {
+    "color": {
+      "text-icon": {
+        "primary": {
+          "value": "{bk.global.color.white}",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "{bk.global.color.gray.700}",
+          "type": "color"
+        },
+        "tertiary": {
+          "value": "{bk.global.color.gray.1100}",
+          "type": "color"
+        },
+        "placeholder": {
+          "value": "{bk.global.color.gray.900}",
+          "type": "color"
+        },
+        "paragraph": {
+          "value": "{bk.global.color.gray.300}",
+          "type": "color"
+        },
+        "icon-default": {
+          "value": "{bk.global.color.gray.1000}",
+          "type": "color"
+        },
+        "disable": {
+          "value": "{bk.global.color.gray.1300}",
+          "type": "color"
+        },
+        "bitkub": {
+          "value": "{bk.global.color.green.1200}",
+          "type": "color"
+        },
+        "trade": {
+          "buy": {
+            "value": "{bk.global.color.green.1200}",
+            "type": "color"
+          },
+          "sell": {
+            "value": "{bk.global.color.red.700}",
+            "type": "color"
+          }
+        },
+        "status": {
+          "default": {
+            "value": "{bk.global.color.grayscale.900}",
+            "type": "color"
+          },
+          "success-100": {
+            "value": "{bk.global.color.green.1200}",
+            "type": "color"
+          },
+          "success-200": {
+            "value": "{bk.global.color.green.1300}",
+            "type": "color"
+          },
+          "error-100": {
+            "value": "{bk.global.color.red.700}",
+            "type": "color"
+          },
+          "error-200": {
+            "value": "{bk.global.color.red.800}",
+            "type": "color"
+          },
+          "warning-100": {
+            "value": "{bk.global.color.yellow.1000}",
+            "type": "color"
+          },
+          "warning-200": {
+            "value": "{bk.global.color.yellow.900}",
+            "type": "color"
+          },
+          "info-100": {
+            "value": "{bk.global.color.blue.800}",
+            "type": "color"
+          },
+          "info-200": {
+            "value": "{bk.global.color.blue.700}",
+            "type": "color"
+          }
+        }
+      },
+      "bg": {
+        "primary": {
+          "value": "{bk.global.color.gray.1700}",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "{bk.global.color.gray.1900}",
+          "type": "color"
+        },
+        "tertiary": {
+          "value": "{bk.global.color.green.1700}",
+          "type": "color"
+        },
+        "quaternary": {
+          "value": "{bk.global.color.gray.1300}",
+          "type": "color"
+        },
+        "disable": {
+          "value": "{bk.global.color.gray.1600}",
+          "type": "color"
+        },
+        "bitkub": {
+          "value": "{bk.global.color.green.1300}",
+          "type": "color"
+        },
+        "status": {
+          "default": {
+            "value": "{bk.global.color.gray.900}",
+            "type": "color"
+          },
+          "success-100": {
+            "value": "{bk.global.color.green.1700}",
+            "type": "color"
+          },
+          "success-200": {
+            "value": "{bk.global.color.green.1400}",
+            "type": "color"
+          },
+          "info-100": {
+            "value": "{bk.global.color.blue.1600}",
+            "type": "color"
+          },
+          "info-200": {
+            "value": "{bk.global.color.blue.1100}",
+            "type": "color"
+          },
+          "warning-100": {
+            "value": "{bk.global.color.yellow.1700}",
+            "type": "color"
+          },
+          "warning-200": {
+            "value": "{bk.global.color.yellow.1100}",
+            "type": "color"
+          },
+          "error-100": {
+            "value": "{bk.global.color.red.1700}",
+            "type": "color"
+          },
+          "error-200": {
+            "value": "{bk.global.color.red.700}",
+            "type": "color"
+          }
+        },
+        "opacity": {
+          "primary": {
+            "value": "{bk.global.color.transparent.black.4}",
+            "type": "color"
+          },
+          "secondary": {
+            "value": "{bk.global.color.transparent.black.2}",
+            "type": "color"
+          },
+          "tertiary": {
+            "value": "{bk.global.color.transparent.white.9}",
+            "type": "color"
+          },
+          "backdrop": {
+            "value": "{bk.global.color.transparent.black.4}",
+            "type": "color"
+          }
+        },
+        "action-bar":{
+          "primary":{
+            "value": "{bk.global.color.green.1600}",
+            "type": "color"
+          }
+        }
+      },
+      "border": {
+        "primary": {
+          "value": "{bk.global.color.gray.1500}",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "{bk.global.color.gray.1100}",
+          "type": "color"
+        },
+        "disable": {
+          "value": "{bk.global.color.gray.1500}",
+          "type": "color"
+        }
+      },
+      "state": {
+        "bitkub": {
+          "bk-1": {
+            "default": {
+              "value": "{bk.global.color.green.1200}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{bk.global.color.green.1300}",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "{bk.global.color.green.1400}",
+              "type": "color"
+            }
+          },
+          "bk-2": {
+            "default": {
+              "value": "transparent",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{bk.global.color.green.1800}",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "{bk.global.color.green.1600}",
+              "type": "color"
+            }
+          },
+          "bk-3": {
+            "default": {
+              "value": "{bk.global.color.green.1300}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{bk.global.color.green.1300}",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "{bk.global.color.green.1200}",
+              "type": "color"
+            }
+          },
+          "bk-4": {
+            "default": {
+              "value": "{bk.global.color.green.1200}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{bk.global.color.green.1200}",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "{bk.global.color.green.1100}",
+              "type": "color"
+            }
+          },
+          "bk-5": {
+            "default": {
+              "value": "{bk.global.color.green.1200}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{bk.global.color.green.900}",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "{bk.global.color.green.900}",
+              "type": "color"
+            }
+          }
+        },
+        "gray": {
+          "g-1": {
+            "default": {
+              "value": "{bk.global.color.gray.100}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{bk.global.color.gray.100}",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "{bk.global.color.gray.200}",
+              "type": "color"
+            }
+          },
+          "g-2": {
+            "default": {
+              "value": "transparent",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{bk.global.color.gray.1600}",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "{bk.global.color.gray.1500}",
+              "type": "color"
+            }
+          },
+          "g-3": {
+            "default": {
+              "value": "{bk.global.color.gray.1100}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{bk.global.color.gray.1100}",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "{bk.global.color.gray.1200}",
+              "type": "color"
+            }
+          },
+          "g-4": {
+            "default": {
+              "value": "{bk.global.color.gray.1500}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{bk.global.color.gray.1600}",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "{bk.global.color.gray.1600}",
+              "type": "color"
+            }
+          },
+          "g-5": {
+            "default": {
+              "value": "{bk.global.color.gray.800}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{bk.global.color.gray.800}",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "{bk.global.color.gray.600}",
+              "type": "color"
+            }
+          },
+          "g-6": {
+            "default": {
+              "value": "{bk.global.color.gray.100}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{bk.global.color.gray.400}",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "{bk.global.color.gray.400}",
+              "type": "color"
+            }
+          }
+        },
+        "red": {
+          "r-1": {
+            "default": {
+              "value": "{bk.global.color.red.700}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{bk.global.color.red.800}",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "{bk.global.color.red.900}",
+              "type": "color"
+            }
+          },
+          "r-2": {
+            "default": {
+              "value": "transparent",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{bk.global.color.red.1800}",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "{bk.global.color.red.1700}",
+              "type": "color"
+            }
+          },
+          "r-3": {
+            "default": {
+              "value": "{bk.global.color.red.700}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{bk.global.color.red.700}",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "{bk.global.color.red.800}",
+              "type": "color"
+            }
+          },
+          "r-4": {
+            "default": {
+              "value": "{bk.global.color.red.800}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{bk.global.color.red.800}",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "{bk.global.color.red.700}",
+              "type": "color"
+            }
+          },
+          "r-5": {
+            "default": {
+              "value": "{bk.global.color.red.800}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{bk.global.color.red.800}",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "{bk.global.color.red.600}",
+              "type": "color"
+            }
+          }
+        },
+        "status": {
+          "status-1": {
+            "default": {
+              "value": "{bk.global.color.gray.1500}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{bk.global.color.green.1300}",
+              "type": "color"
+            },
+            "active": {
+              "value": "{bk.global.color.green.1300}",
+              "type": "color"
+            },
+            "active-outer": {
+              "value": "{bk.global.color.transparent.green.3}",
+              "type": "color"
+            },
+            "error": {
+              "value": "{bk.global.color.red.800}",
+              "type": "color"
+            },
+            "error-outer": {
+              "value": "{bk.global.color.transparent.red.3}",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "component": {
+        "bg": {
+          "bg-primary": {
+            "value": "{bk.global.color.gray.1700}",
+            "type": "color"
+          },
+          "bg-raise": {
+            "value": "{bk.global.color.transparent.gray.6}",
+            "type": "color"
+          },
+          "bg-hover": {
+            "value": "{bk.color.state.gray.g-2.hover}",
+            "type": "color"
+          },
+          "bg-active": {
+            "value": "{bk.global.color.transparent.green.1}",
+            "type": "color"
+          },
+          "bg-disabled": {
+            "value": "{bk.global.color.gray.1600}",
+            "type": "color"
+          }
+        },
+        "text": {
+          "text-disabled": {
+            "value": "{bk.global.color.gray.1300}",
+            "type": "color"
+          },
+          "text-on-gray": {
+            "value": "{bk.global.color.gray.100}",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "shadow": {
+      "base": {
+        "raise-modal": {
+          "value": "{bk.global.shadow.7}",
+          "type": "boxShadow"
+        },
+        "raise-bg-none-lg": {
+          "value": "{bk.global.shadow.8}",
+          "type": "boxShadow"
+        },
+        "raise-bg-none-sm": {
+          "value": "{bk.global.shadow.6}",
+          "type": "boxShadow"
+        },
+        "section-lg": {
+          "value": "{bk.global.shadow.9}",
+          "type": "boxShadow"
+        },
+        "section-sm": {
+          "value": "{bk.global.shadow.6}",
+          "type": "boxShadow"
+        }
+      }
+    }
+  }
+}
