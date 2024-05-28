@@ -1,4 +1,5 @@
 import 'package:core_commons/extensions/context_extension.dart';
+import 'package:core_dependencies/adaptive_theme.dart';
 import 'package:core_dependencies/riverpod.dart';
 import 'package:core_providers/ui_providers/theme_provider.dart';
 import 'package:flutter/material.dart';
@@ -13,15 +14,22 @@ class MyApp extends ConsumerWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData.light().copyWith(
+    return AdaptiveTheme(
+      light: ThemeData.light().copyWith(
         extensions: [ref.read(rightThemeProvider)],
       ),
-      darkTheme: ThemeData.light().copyWith(
+      dark: ThemeData.dark().copyWith(
         extensions: [ref.read(darkThemeProvider)],
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      initial: AdaptiveThemeMode.light,
+      builder: (right, dark) {
+        return MaterialApp(
+          title: 'Flutter Demo',
+          theme: right,
+          darkTheme: dark,
+          home: const MyHomePage(title: 'Flutter Demo Home Page'),
+        );
+      },
     );
   }
 }
@@ -52,10 +60,21 @@ class MyHomePageState extends ConsumerState<MyHomePage> {
         // TRY THIS: Try changing the color here to a specific color (to
         // Colors.amber, perhaps?) and trigger a hot reload to see the AppBar
         // change color while the other colors stay the same.
-        backgroundColor: theme.bkColor.bitkubG,
+        backgroundColor: theme.bkColor.bg.primary,
         // Here we take the value from the MyHomePage object that was created by
         // the App.build method, and use it to set our appbar title.
         title: Text(widget.title),
+        actions: [
+          IconButton(
+            onPressed: () {
+              AdaptiveTheme.of(context).toggleThemeMode();
+            },
+            icon: Padding(
+              padding: EdgeInsets.only(right: theme.bkPadding.button.leftMd),
+              child: const Icon(Icons.dark_mode),
+            ),
+          ),
+        ],
       ),
       body: Center(
         // Center is a layout widget. It takes a single child and positions it
