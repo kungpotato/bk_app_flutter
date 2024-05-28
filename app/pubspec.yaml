@@ -13,13 +13,18 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.6
+  core_dependencies:
+    path: '../packages/core/core_dependencies'
+  core_providers:
+    path: '../packages/core/core_providers'
+  core_commons:
+    path: '../packages/core/core_commons'
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^3.0.0
-  core_dependencies:
-    path: '../packages/core/core_dependencies'
+
 
 flutter:
   uses-material-design: true

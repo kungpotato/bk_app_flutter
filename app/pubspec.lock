@@ -153,10 +153,31 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.1.1"
+  core_commons:
+    dependency: "direct main"
+    description:
+      path: "../packages/core/core_commons"
+      relative: true
+    source: path
+    version: "0.0.1"
   core_dependencies:
-    dependency: "direct dev"
+    dependency: "direct main"
     description:
       path: "../packages/core/core_dependencies"
+      relative: true
+    source: path
+    version: "0.0.1"
+  core_providers:
+    dependency: "direct main"
+    description:
+      path: "../packages/core/core_providers"
+      relative: true
+    source: path
+    version: "0.0.1"
+  core_ui:
+    dependency: "direct overridden"
+    description:
+      path: "../packages/core/core_ui"
       relative: true
     source: path
     version: "0.0.1"

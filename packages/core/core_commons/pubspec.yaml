@@ -1,7 +1,8 @@
 name: core_commons
 description: "A new Flutter package project."
 version: 0.0.1
-homepage:
+
+publish_to: 'none'
 
 environment:
   sdk: '>=3.3.4 <4.0.0'
@@ -10,13 +11,15 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  core_dependencies:
+    path: '../core_dependencies'
+  core_ui:
+    path: '../core_ui'
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^3.0.0
-  core_dependencies:
-    path: '../core_dependencies'
 
 flutter:
 

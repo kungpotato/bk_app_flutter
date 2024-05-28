@@ -1,5 +1,2 @@
-import 'package:flutter/material.dart';
-
-extension BuildContextX on BuildContext {
-  ThemeData get theme => Theme.of(this);
-}
+export './extension.dart';
+export './widget_ref_extension.dart';
