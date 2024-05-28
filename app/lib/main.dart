@@ -16,7 +16,10 @@ class MyApp extends ConsumerWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData.light().copyWith(
-        extensions: [ref.read(themeProvider)],
+        extensions: [ref.read(rightThemeProvider)],
+      ),
+      darkTheme: ThemeData.light().copyWith(
+        extensions: [ref.read(darkThemeProvider)],
       ),
       home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
